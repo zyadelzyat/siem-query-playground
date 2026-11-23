@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://siem-query-playground.vercel.app/sitemap.xml

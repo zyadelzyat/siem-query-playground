@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://siem-query-playground.vercel.app/</loc></url>
+  <url><loc>https://siem-query-playground.vercel.app/learn-spl.html</loc></url>
+  <url><loc>https://siem-query-playground.vercel.app/learn-kql.html</loc></url>
+  <url><loc>https://siem-query-playground.vercel.app/learn-aql.html</loc></url>
+  <url><loc>https://siem-query-playground.vercel.app/learn-fortisiem-sql.html</loc></url>
+</urlset>

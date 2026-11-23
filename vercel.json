@@ -1,0 +1,27 @@
+{
+  "framework": null,
+  "buildCommand": "node deployment/discovery.mjs",
+  "installCommand": "npm install --omit=dev --ignore-scripts",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/service.js": {
+      "maxDuration": 30,
+      "includeFiles": "{server/**,dist/datasets/**,dist/engine.js,dist/lessons.js}"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}
